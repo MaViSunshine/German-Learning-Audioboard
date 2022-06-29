@@ -24,9 +24,9 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
-  
+    flex-wrap: wrap; 
 }
+
 .cards{
     width: 70%;
     height: auto;
@@ -77,4 +77,42 @@ h2{
     text-align: center;
     font-size: 1.2rem;
 }
+/* ******************************************
+************MOBILE STYLES*****************
+****************************************** */
 
+
+@media (max-width: 650px) {
+    .card {
+        width: 120px;
+        height: 100px;
+        margin: 0.1em;
+        font-size: 1.2rem;
+    }
+    
+    .card img {
+        max-width: 4rem;
+        max-height: 4rem;
+    }  
+}
+    
+@media (max-width: 505px) {
+    .main-title{
+    font-size: 2rem;
+   }
+    
+   .card {
+    width: 120px;
+    height: 100px;
+    margin: 0.1em;
+    font-size: 0.8rem;
+    }
+    .card-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap; 
+    }
+}
