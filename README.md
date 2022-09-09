@@ -11,3 +11,5 @@ Hopefully the final product would be child friendly and accesible regarless of n
 Make sure the audio is on, and watch the demo for the numbers screen (video player is muted by default).
 <h2>DEMO: </h2>
 <video src="https://user-images.githubusercontent.com/90439054/176324123-96144457-0b04-4cce-9d56-b300cd51e0d9.mp4" controls unmute type="video/mp4"></video>
+<h2>LIVE DEMO SITE: </h2>
+<a href="https://german-learning-soundboard.netlify.app/">https://german-learning-soundboard.netlify.app/</a>
